@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>tb3_beacon_bridge</name>
+  <version>0.1.0</version>
+  <description>Adaptive Marvelmind beacon bridge for TurtleBot3</description>
+  <maintainer email="ubuntu@tb3">ubuntu</maintainer>
+  <license>MIT</license>
+  <depend>rclpy</depend>
+  <depend>marvelmind_ros2</depend>
+  <depend>marvelmind_ros2_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <build_type>ament_python</build_type>
+</package>
