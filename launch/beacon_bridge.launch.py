@@ -21,7 +21,7 @@ def generate_launch_description():
     driver_a = Node(
         package='marvelmind_ros2',
         executable='marvelmind_ros2',
-        name='marvelmind_driver_1',
+        name=['marvelmind_driver_', beacon_a],
         output='screen',
         parameters=[config_a],
     )
@@ -29,7 +29,7 @@ def generate_launch_description():
     driver_b = Node(
         package='marvelmind_ros2',
         executable='marvelmind_ros2',
-        name='marvelmind_driver_2',
+        name=['marvelmind_driver_', beacon_b],
         output='screen',
         parameters=[config_b],
     )
