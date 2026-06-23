@@ -3,7 +3,7 @@
   <name>tb3_beacon_bridge</name>
   <version>0.1.0</version>
   <description>Adaptive Marvelmind beacon bridge for TurtleBot3</description>
-  <maintainer email="ubuntu@tb3">ubuntu</maintainer>
+  <maintainer email="ubuntu@tb3.com">ubuntu</maintainer>
   <license>MIT</license>
   <depend>rclpy</depend>
   <depend>marvelmind_ros2</depend>
